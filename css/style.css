@@ -1,10 +1,10 @@
 body{
-	background-color: greenyellow;
 	color: black;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 16px;
 	line-height: 1.6em;
 	margin: 0;
+	background: url(../images/backgrounds/Schematic.jpg) repeat 0 0;
 }
 
 .container{
@@ -14,12 +14,12 @@ body{
 }
 
 #main-header{
-    background-color: darkgreen;
+    background-color: coral;
     color: #fff;
 }
 
 #navbar{
-	background-color: black;
+	background-color: rgb(184, 79, 41);
 }
 
 #navbar ul{
@@ -39,8 +39,8 @@ body{
 }
 
 #main{
-	float:left;
 	width:70%;
 	padding:0 30px;
 	box-sizing: border-box;
+	margin: auto;
 }
