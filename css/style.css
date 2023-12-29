@@ -4,6 +4,7 @@ body{
 	font-size: 16px;
 	line-height: 1.6em;
 	margin: 0;
+	background-color: rgb(113, 165, 190);
 }
 
 .container{
@@ -13,12 +14,19 @@ body{
 }
 
 #main-header{
-    background-color: coral;
-    color: #fff;
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+	text-align: center;
+	margin: auto;
+	margin-top: 20px;
+	width: 75%;
 }
 
 #navbar{
-	background-color: rgb(184, 79, 41);
+	background-color: rgb(148, 148, 148);
+	text-align: left;
+	overflow: hidden;
+	padding-left: 20px;
 }
 
 #navbar ul{
@@ -38,8 +46,8 @@ body{
 }
 
 #main{
-	width:70%;
-	padding:0 30px;
-	box-sizing: border-box;
+	padding:1px 30px;
 	margin: auto;
+	background-color: rgb(255, 255, 255);
+	width: 70%;
 }
